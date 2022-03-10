@@ -313,9 +313,9 @@ doubleStyle:  db 201, BROWN, 205, GREEN, 187, BROWN
               db 186, GREEN, 0,   0,     186, GREEN
               db 200, BROWN, 205, GREEN, 188, BROWN, '$'
 
-singleStyle:  db 218, BROWN, 196, GREEN, 191, BROWN
+singleStyle:  db 3,   BROWN, 196, GREEN, 3,   BROWN
               db 179, GREEN, 0,   0,     179, GREEN
-              db 192, BROWN, 196, GREEN, 217, BROWN, '$'
+              db 3,   BROWN, 196, GREEN, 3,   BROWN, '$'
 
 cringeStyle:  db '+', CYAN,  196, BROWN, '+', RED
               db 179, GREEN, 0,   0,     179, GREEN

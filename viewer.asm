@@ -58,16 +58,11 @@ wrapInt08   proc
             mov si, offset singleStyle
             pop ax
             push ax
-
-            ; Tests:
-            ; mov ax, 1
-            ; mov bx, 16
-            ; mov cx, 0FFh
-            ; mov dx, 0FFFh
+            
             call drawFrame
 
 @@intExit:
-            pop ax es ds si di dx cx bx
+            pop ax es ds si di dx cx bx 
 
             db 0EAh                     ; iret
 Old08Off:   dw 0
